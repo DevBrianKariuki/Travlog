@@ -1,4 +1,4 @@
-import {  } from "../assets";
+import { airbnb, tripadvisor,expedia , booking, orbitz } from "../assets";
 
 export const navLinks = [
   {
@@ -119,65 +119,57 @@ export const features = [
 
 export const footerLinks = [
   {
-    title: "Useful Links",
+    title: "Company",
     links: [
       {
-        name: "Content",
-        link: "https://www.hoobank.com/content/",
+        name: "About",
+        link: "#",
       },
       {
-        name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
+        name: "Career",
+        link: "#",
       },
       {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
-      },
-      {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
-      },
-      {
-        name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
+        name: "Mobile",
+        link: "#",
       },
     ],
   },
   {
-    title: "Community",
+    title: "Contact",
     links: [
       {
-        name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
+        name: "Why Travlog",
+        link: "#",
       },
       {
-        name: "Partners",
-        link: "https://www.hoobank.com/partners/",
+        name: "Partner with us",
+        link: "#",
       },
       {
-        name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
+        name: "FAQ's",
+        link: "#",
       },
       {
-        name: "Blog",
-        link: "https://www.hoobank.com/blog/",
-      },
-      {
-        name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
+        name: "Blogs",
+        link: "#",
       },
     ],
   },
   {
-    title: "Partner",
+    title: "Meet Us",
     links: [
       {
-        name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
+        name: "0703 814228",
+        link: "#",
       },
       {
-        name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
+        name: "info@travlog.com",
+        link: "#",
+      },
+      {
+        name: "205. R Street, New York",
+        link: "#",
       },
     ],
   },
@@ -199,28 +191,27 @@ export const socialMedia = [
     icon: twitter,
     link: "https://www.twitter.com/",
   },
-  {
-    id: "social-media-4",
-    icon: linkedin,
-    link: "https://www.linkedin.com/",
-  },
 ];
 
-export const clients = [
+export const customers = [
   {
-    id: "client-1",
+    id: "tripadvisor",
+    logo: tripadvisor,
+  },
+  {
+    id: "expedia",
+    logo: expedia,
+  },
+  {
+    id: "booking.com",
+    logo: booking,
+  },
+  {
+    id: "airbnb",
     logo: airbnb,
   },
   {
-    id: "client-2",
-    logo: binance,
-  },
-  {
-    id: "client-3",
-    logo: coinbase,
-  },
-  {
-    id: "client-4",
-    logo: dropbox,
+    id: "orbitz",
+    logo: orbitz,
   },
 ];
