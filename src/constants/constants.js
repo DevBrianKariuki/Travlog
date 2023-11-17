@@ -1,4 +1,4 @@
-import { airbnb, tripadvisor,expedia , booking, orbitz } from "../assets";
+import { airbnb, tripadvisor,expedia , booking, orbitz, cloudy } from "../assets";
 
 export const navLinks = [
   {
@@ -44,33 +44,33 @@ export const services = [
   
 ];
 
-export const cards = [
-  {
-    id: "paradise-beach",
-    image: paradise,
-    title: "Paradise Beach, Bantayan Island",
-    price: "$550.16",
-    location: "Rome, Italy",
-    Rating: 4.5,
-  },
-  {
-    id: "ocean-of-colors",
-    image: fish,
-    title: "Ocean with full of colors",
-    price: "$680.86",
-    location: "Maldives",
-    Rating: 4.0,
-  },
-  {
-    id: "paradise-beach",
-    image: mountainview,
-    title: "Mountain View, Above the cloud",
-    price: "$150.90",
-    location: "United Arab Emirates",
-    Rating: 3.5,
-  },
+// export const cards = [
+//   {
+//     id: "paradise-beach",
+//     image: paradise,
+//     title: "Paradise Beach, Bantayan Island",
+//     price: "$550.16",
+//     location: "Rome, Italy",
+//     Rating: 4.5,
+//   },
+//   {
+//     id: "ocean-of-colors",
+//     image: fish,
+//     title: "Ocean with full of colors",
+//     price: "$680.86",
+//     location: "Maldives",
+//     Rating: 4.0,
+//   },
+//   {
+//     id: "paradise-beach",
+//     image: mountainview,
+//     title: "Mountain View, Above the cloud",
+//     price: "$150.90",
+//     location: "United Arab Emirates",
+//     Rating: 3.5,
+//   },
   
-];
+// ];
 
 export const stats = [
   {
@@ -95,27 +95,27 @@ export const stats = [
   },
 ];
 
-export const features = [
-  {
-    id: "location",
-    icon: location,
-    title: "We offer the best services",
-    desc: "Lorem Ipsum is not simply random text",
-  },
-  {
-    id: "calendar",
-    icon: calendar,
-    title: "Schedule your trip",
-    desc: "It has roots in a piece of classical",
-  },
-  {
-    id: "discounted-prices",
-    icon: discounted,
-    title: "We offer the best services",
-    desc: "Lorem Ipsum is not simply random text",
-  },
+// export const features = [
+//   {
+//     id: "location",
+//     icon: location,
+//     title: "We offer the best services",
+//     desc: "Lorem Ipsum is not simply random text",
+//   },
+//   {
+//     id: "calendar",
+//     icon: calendar,
+//     title: "Schedule your trip",
+//     desc: "It has roots in a piece of classical",
+//   },
+//   {
+//     id: "discounted-prices",
+//     icon: discounted,
+//     title: "We offer the best services",
+//     desc: "Lorem Ipsum is not simply random text",
+//   },
   
-];
+// ];
 
 export const footerLinks = [
   {
@@ -175,23 +175,23 @@ export const footerLinks = [
   },
 ];
 
-export const socialMedia = [
-  {
-    id: "social-media-1",
-    icon: instagram,
-    link: "https://www.instagram.com/",
-  },
-  {
-    id: "social-media-2",
-    icon: facebook,
-    link: "https://www.facebook.com/",
-  },
-  {
-    id: "social-media-3",
-    icon: twitter,
-    link: "https://www.twitter.com/",
-  },
-];
+// export const socialMedia = [
+//   {
+//     id: "social-media-1",
+//     icon: instagram,
+//     link: "https://www.instagram.com/",
+//   },
+//   {
+//     id: "social-media-2",
+//     icon: facebook,
+//     link: "https://www.facebook.com/",
+//   },
+//   {
+//     id: "social-media-3",
+//     icon: twitter,
+//     link: "https://www.twitter.com/",
+//   },
+// ];
 
 export const customers = [
   {

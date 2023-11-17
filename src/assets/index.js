@@ -5,6 +5,9 @@ import expedia from './expedia.svg'
 import logo from './logo.svg'
 import booking from './booking.svg'
 import orbitz from './orbitz.svg'
+import menu from './menu.svg'
+import activemenu from './activemenu.svg'
+import cloudy from './cloudy.png'
 
 
 export {
@@ -14,5 +17,8 @@ export {
     expedia,
     logo,
     booking,
-    orbitz
+    orbitz,
+    menu,
+    activemenu,
+    cloudy
 }

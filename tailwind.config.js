@@ -9,10 +9,11 @@ export default {
       colors:{
         pink:'#F85E9F',
         yellow:'#FACD49',
-        black: '#1e1e1e'
+        black: '#1e1e1e',
+        blue: '#5D50C6'
       },
       fontFamily: {
-        poppins: ["Poppins", "sans-serif"],
+        inter: ["Inter", "sans-serif"],
       },
     },
     screens: {
