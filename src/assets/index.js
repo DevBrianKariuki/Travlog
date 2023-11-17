@@ -8,6 +8,8 @@ import orbitz from './orbitz.svg'
 import menu from './menu.svg'
 import activemenu from './activemenu.svg'
 import cloudy from './cloudy.png'
+import workicon from './workicon.svg'
+import playicon from './playicon.svg'
 
 
 export {
@@ -20,5 +22,7 @@ export {
     orbitz,
     menu,
     activemenu,
-    cloudy
+    cloudy,
+    workicon,
+    playicon,
 }

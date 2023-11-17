@@ -14,6 +14,7 @@ export default {
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],
+        circular: ["Circular Std", "sans-serif"],
       },
     },
     screens: {

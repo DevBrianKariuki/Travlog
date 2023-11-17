@@ -68,8 +68,8 @@ const Navbar = () => {
           </ul>
             
             <div className='flex flex-col sm:flex-row gap-4 mt-9'>
-              <button className='flex font-inter text-blue font-medium text-md justify-center bg-white p-2 rounded-full text-center text-center'>Login</button>
-              <button className='flex font-inter text-white font-medium text-md justify-center bg-blue p-2 rounded-full text-center text-center'>Sign Up</button>
+              <button className='flex font-inter text-blue font-medium text-sm justify-center bg-white p-2 rounded-full text-center text-center'>Login</button>
+              <button className='flex font-inter text-white font-medium text-sm justify-center bg-blue p-2 rounded-full text-center text-center'>Sign Up</button>
             </div>
 
         </div>

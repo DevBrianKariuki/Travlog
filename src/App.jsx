@@ -10,6 +10,11 @@ const App = () => {
           <Navbar />
         </div>
       </div>
+      <div className={` ${styles.paddingY} ${styles.flexStart}`}>
+        <div className={`${styles.boxWidth}`}>
+          <Hero />
+        </div>
+      </div>
     </div>
   )
 }
