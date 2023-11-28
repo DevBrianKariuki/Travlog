@@ -1,7 +1,7 @@
 import React from 'react'
 import { travelPoint } from '../assets'
 import { stats } from '../constants/constants'
-import StatCard from './statCard'
+import StatCard from './StatCard'
 
 const TravelPoint = () => {
   return (
