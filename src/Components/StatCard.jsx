@@ -1,6 +1,6 @@
 import React from 'react'
 
-const statCard = ({ title, text }) => {
+const StatCard = ({ title, text }) => {
   return (
     <div className='flex flex-col py-8 gap-5 rounded-3xl border-2 border-gray-200 bg-white justify-center items-center'>
         <h1 className='font-circular text-[#FF5722] text-2xl'>{title}</h1>
@@ -9,4 +9,4 @@ const statCard = ({ title, text }) => {
   )
 }
 
-export default statCard
+export default StatCard
