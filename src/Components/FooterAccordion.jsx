@@ -1,6 +1,5 @@
 import React, {useState} from 'react'
 'use client';
-import { Accordion } from 'flowbite-react';
 
 
 
