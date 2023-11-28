@@ -14,6 +14,13 @@ import ocean from './oceans.jpg'
 import maldives from './maldives.jpg'
 import mountains from './mountains.jpg'
 import travelPoint from './travelPoint.png'
+import keyFeatures from './keyFeatures.png'
+import calendarIcon from './calendarIcon.png'
+import locationIcon from './locationIcon.png'
+import thirdIcon from './thirdIcon.png'
+import Background from './Background.png'
+import avatar from './avatar.png'
+import stars from './stars.svg'
 import workicon from './workicon.svg'
 import playicon from './playicon.svg'
 
@@ -35,6 +42,13 @@ export {
     maldives,
     mountains,
     travelPoint,
+    keyFeatures,
+    calendarIcon,
+    locationIcon,
+    thirdIcon,
+    Background,
+    stars,
+    avatar,
     workicon,
     playicon,
 }

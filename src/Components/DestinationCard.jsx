@@ -17,7 +17,7 @@ const DestinationCard = ({ image, price, name, location, rating }) => {
                 className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsla(0,0%,98%,0.15)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"></div>
             </a>
             </div>
-            <div class="p-6">
+            <div className="p-6">
                 <div className='flex flex-col md:flex-row md:items-center md:justify-between'></div>
                 <p className="mb-2 text-md font-medium leading-tight text-pink font-circular">
                     {price}
@@ -25,7 +25,7 @@ const DestinationCard = ({ image, price, name, location, rating }) => {
                 <h5 className="mb-2 text-xl font-medium leading-tight text-blue font-circular">
                     {name}
                 </h5>
-                <p class="my-4 text-base text-gray-500 font-inter">
+                <p className="my-4 text-base text-gray-500 font-inter">
                     {location}
                 </p>
                 <div className='flex items-center text-[#FF5722]'>

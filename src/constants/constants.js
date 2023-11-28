@@ -1,4 +1,5 @@
-import { airbnb, tripadvisor,expedia , booking, orbitz, forecast, easybooking, world, maldives, mountains, ocean } from "../assets";
+import { airbnb, tripadvisor,expedia , locationIcon, calendarIcon, thirdIcon , booking, orbitz, forecast, easybooking, world, maldives, mountains, ocean } from "../assets";
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 export const navLinks = [
   {
@@ -72,6 +73,29 @@ export const services = [
   
 // ];
 
+export const Features = [
+  {
+    id: "Feature-1",
+    bg:'bg-[#FF5722]',
+    icon: locationIcon,
+    title: "We offer best services",
+    text: "It has roots in a piece of classical",
+  },
+  {
+    id: "Feature-2",
+    bg:'bg-[#FACD49]',
+    icon: calendarIcon,
+    title: "Schedule your trip",
+    text: "Lorem Ipsum is not simply random text",
+  },
+  {
+    id: "Feature-3",
+    bg:'bg-[#F85E9F]',
+    icon: thirdIcon,
+    title: "Get discounted coupons",
+    text: "Lorem Ipsum is not simply random text",
+  },
+];
 export const stats = [
   {
     id: "holiday-package",

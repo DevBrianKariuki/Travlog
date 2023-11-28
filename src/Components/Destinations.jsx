@@ -14,11 +14,11 @@ const Destinations = () => {
         </div>
 
         <div className='flex w-full justify-center md:justify-end gap-20 mb-5'>
-            <div className='rounded-full flex items-center p-5 justify-center border-2 bg-gray-200'>
-              < FaArrowLeft fontSize={20}/>
+            <div className='rounded-full flex items-center p-5 justify-center border-2 hover:border-pink bg-gray-200'>
+              < FaArrowLeft fontSize={20} className='text-blue' />
             </div>
-            <div className='rounded-full flex items-center p-5 justify-center border-2 bg-blue '>
-              < FaArrowRight className='text-white' fontSize={20}/>
+            <div className='rounded-full flex items-center hover:border-pink p-5 justify-center border-2 bg-blue '>
+              < FaArrowRight className='text-white'  fontSize={20}/>
             </div>
         </div>
       </div>
