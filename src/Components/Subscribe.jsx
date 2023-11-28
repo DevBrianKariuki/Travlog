@@ -3,7 +3,7 @@ import { IoMail } from "react-icons/io5";
 
 const Subscribe = () => {
   return (
-    <div className={` relative bg-center justify-center bg-cover w-full mt-20 flex flex-col px-4 md:px-20 items-center`}>
+    <div className={` relative bg-center justify-center bg-cover w-full mt-20 flex flex-col px-4 md:px-16 items-center`}>
 
         <div className='bg-[#FFFBF0] rounded-2xl items-center justify-center px-3 py-6 md:py-20 w-full'>
           <div className='flex items-center justify-center my-8 md:my-0 flex-col p-2'>

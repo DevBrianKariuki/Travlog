@@ -119,6 +119,7 @@ export const stats = [
   },
 ];
 
+
  export const destinations = [
    {
      id: "destination-1",
@@ -146,6 +147,7 @@ export const stats = [
    },
 
  ];
+
 
 export const footerLinks = [
   {
