@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from "./styles";
-import { Navbar, Hero } from './Components'
+import { Navbar, Hero, Customers, Services, Destinations, TravelPoint } from './Components'
 
 const App = () => {
   return (
@@ -13,6 +13,10 @@ const App = () => {
       <div className={` ${styles.paddingY} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Hero />
+          <Customers />
+          <Services />
+          <Destinations />
+          <TravelPoint />
         </div>
       </div>
     </div>

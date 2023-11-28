@@ -1,4 +1,4 @@
-import { airbnb, tripadvisor,expedia , booking, orbitz, cloudy } from "../assets";
+import { airbnb, tripadvisor,expedia , booking, orbitz, forecast, easybooking, world, maldives, mountains, ocean } from "../assets";
 
 export const navLinks = [
   {
@@ -22,21 +22,21 @@ export const navLinks = [
 export const services = [
   {
     id: "service-1",
-    icon: location,
+    icon: world,
     title: "Best Tour Guide",
     content:
       "What looked like a small patch of purple grass, above five feet.",
   },
   {
     id: "service-2",
-    icon: booking,
+    icon: easybooking,
     title: "Easy Booking",
     content:
       "Square, was moving across the sand in their direction.",
   },
   {
     id: "service-3",
-    icon: cloudy,
+    icon: forecast,
     title: "Weather Forecast",
     content:
       "What looked like a small patch of purple grass, above five feet.",
@@ -95,27 +95,33 @@ export const stats = [
   },
 ];
 
-// export const features = [
-//   {
-//     id: "location",
-//     icon: location,
-//     title: "We offer the best services",
-//     desc: "Lorem Ipsum is not simply random text",
-//   },
-//   {
-//     id: "calendar",
-//     icon: calendar,
-//     title: "Schedule your trip",
-//     desc: "It has roots in a piece of classical",
-//   },
-//   {
-//     id: "discounted-prices",
-//     icon: discounted,
-//     title: "We offer the best services",
-//     desc: "Lorem Ipsum is not simply random text",
-//   },
-  
-// ];
+ export const destinations = [
+   {
+     id: "destination-1",
+     image: maldives,
+     price: '$550.16',
+     name: "Paradise Beach, Bantayan Island",
+     location: "Rome, Italy",
+     rating: "4.5",
+   },
+   {
+     id: "destination-2",
+     image: mountains,
+     price: '$150.99',
+     name: "Mountain View, Above the cloud",
+     location: "United Arab Emeries",
+     rating: "5.0",
+   },
+   {
+     id: "destination-3",
+    image: ocean,
+     price: '$380.16',
+     name: "Ocean with full of Colors",
+     location: "Maldives, Spain",
+     rating: "4.1",
+   },
+
+ ];
 
 export const footerLinks = [
   {

@@ -1,8 +1,23 @@
 import React from 'react'
+import { travelPoint } from '../assets'
 
 const TravelPoint = () => {
   return (
-    <div>TravelPoint</div>
+    <div className={`w-full mt-20 flex flex-col md:flex-row px-4 md:px-16 items-center`}>
+
+      <div className={`flex-1 md:px-0 flex sm:px-10 md:w-[50%]`}>
+        <img src={travelPoint} className='w-[100%] h-[100%] relative' />
+      </div>
+
+
+      <div className='flex items-center md:items-start my-8 md:my-0 flex-col md:w-[50%] p-2'>
+        <p className='font-inter text-pink text-lg font-bold uppercase'>Travel Point</p>
+        <h1 className='font-circular text-center md:text-left py-3 text-4xl'>We helping you find your dream location</h1>
+      </div>
+      <div className='flex flex-col gap-6 sm:flex-row'>
+        
+      </div>
+    </div>
   )
 }
 

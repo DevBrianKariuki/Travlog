@@ -7,7 +7,13 @@ import booking from './booking.svg'
 import orbitz from './orbitz.svg'
 import menu from './menu.svg'
 import activemenu from './activemenu.svg'
-import cloudy from './cloudy.png'
+import forecast from './forecast.svg'
+import easybooking from './easybooking.svg'
+import world from './world.svg'
+import ocean from './oceans.jpg'
+import maldives from './maldives.jpg'
+import mountains from './mountains.jpg'
+import travelPoint from './travelPoint.png'
 import workicon from './workicon.svg'
 import playicon from './playicon.svg'
 
@@ -22,7 +28,13 @@ export {
     orbitz,
     menu,
     activemenu,
-    cloudy,
+    forecast,
+    easybooking,
+    world,
+    ocean,
+    maldives,
+    mountains,
+    travelPoint,
     workicon,
     playicon,
 }
