@@ -1,10 +1,15 @@
 import React from 'react'
 import styles from '../styles'
 import { hero, workicon, playicon } from '../assets'
+import { motion } from 'framer-motion'
 
 const Hero = () => {
   return (
-    <div className={`w-full flex px-4 md:px-16 items-center flex-col md:flex-row-reverse ${styles.paddingY}`}>
+    <motion.div
+  initial={{ opacity: 0 }}
+  whileInView={{ opacity: 1 }}
+  viewport={{ once: true }}
+ className={`w-full flex px-4 md:px-16 items-center flex-col md:flex-row-reverse ${styles.paddingY}`}>
 
       <div className={`flex-1 md:px-0 flex sm:px-10`}>
         <img src={hero} className='w-[100%] h-[100%] relative' />
@@ -13,7 +18,7 @@ const Hero = () => {
       <div className='flex flex-1 w-full flex-col md:items-start items-center'>
 
         <div className='bg-white gap-4 text-sm font-circular font-bold text-pink rounded-full p-4  sm:w-[30%] justify-center md:w-[40%] flex w-[60%] shadow-md'>
-          Explore the World!
+          Explore the world!
           <img src={workicon} alt="workicon" />
         </div>
 
@@ -34,7 +39,7 @@ const Hero = () => {
         </div>
 
       </div>
-    </div>
+    </motion.div>
   )
 }
 

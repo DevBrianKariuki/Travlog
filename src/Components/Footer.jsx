@@ -22,26 +22,55 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className='flex flex-col gap-4'>
-            <h1 className='font-circular text-xl'>Company</h1>
-            <div className='flex flex-col gap-5 items-start justify-center'>
-              <h2 className='font-inter text-md text-gray-600'>About</h2>
-              <h2 className='font-inter text-md text-gray-600'>Career</h2>
-              <h2 className='font-inter text-md text-gray-600'>Mobile</h2>
+          <div className='flex md:hidden justify-between md:pr-0 pr-12'>
+            <div className='flex flex-col md:my-0 mt-12 gap-4'>
+              <h1 className='font-circular text-xl'>Company</h1>
+              <div className='flex flex-col gap-5 items-start justify-center'>
+                <h2 className='font-inter font-medium text-md text-gray-600'>About</h2>
+                <h2 className='font-inter font-medium text-md text-gray-600'>Career</h2>
+                <h2 className='font-inter font-medium text-md text-gray-600'>Mobile</h2>
+              </div>
+            </div>
+
+            <div className='flex flex-col md:my-0 mt-12 gap-4'>
+              <h1 className='font-circular text-xl'>Contact</h1>
+              <div className='flex flex-col gap-5 items-start justify-center'>
+                <h2 className='font-inter font-medium text-md text-gray-600'>Why Travlog?</h2>
+                <h2 className='font-inter font-medium text-md text-gray-600'>Partner with us</h2>
+                <h2 className='font-inter font-medium text-md text-gray-600'>FAQ's</h2>
+                <h2 className='font-inter font-medium text-md text-gray-600'>Blog</h2>
+              </div>
             </div>
           </div>
 
-          <div className='flex w-full md:hidden md:flex-row flex-col my-6'>
-            <div>
-              <FooterAccordion header={'Company'} text={'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.'} />
+            <div className='flex flex-col hidden md:flex md:my-0 mt-12 gap-4'>
+              <h1 className='font-circular text-xl'>Company</h1>
+              <div className='flex flex-col gap-5 items-start justify-center'>
+                <h2 className='font-inter font-medium text-md text-gray-600'>About</h2>
+                <h2 className='font-inter font-medium text-md text-gray-600'>Career</h2>
+                <h2 className='font-inter font-medium text-md text-gray-600'>Mobile</h2>
+              </div>
             </div>
-            <div>
-              <FooterAccordion header={'Company'} text={'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.'} />
+
+            <div className='flex flex-col hidden md:flex md:my-0 mt-12 gap-4'>
+              <h1 className='font-circular text-xl'>Contact</h1>
+              <div className='flex flex-col gap-5 items-start justify-center'>
+                <h2 className='font-inter font-medium text-md text-gray-600'>Why Travlog?</h2>
+                <h2 className='font-inter font-medium text-md text-gray-600'>Partner with us</h2>
+                <h2 className='font-inter font-medium text-md text-gray-600'>FAQ's</h2>
+                <h2 className='font-inter font-medium text-md text-gray-600'>Blog</h2>
+              </div>
             </div>
-            <div>
-              <FooterAccordion header={'Company'} text={'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.'} />
+
+          <div className='flex flex-col md:my-0 mt-12 gap-4'>
+            <h1 className='font-circular text-xl'>Meet Us</h1>
+            <div className='flex flex-col gap-5 items-start justify-center'>
+              <h2 className='font-inter font-medium text-md text-gray-600'>(+254) 703 814228</h2>
+              <h2 className='font-inter font-medium text-md text-gray-600'>info@travlog.com</h2>
+              <h2 className='font-inter font-medium text-md text-gray-600'>205. R Street, Nairobi<br/> Kenya</h2>
             </div>
           </div>
+  
         </div>
 
         
