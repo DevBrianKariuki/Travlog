@@ -43,7 +43,7 @@ const Footer = () => {
             </div>
           </div>
 
-            <div className='flex flex-col hidden md:flex md:my-0 mt-12 gap-4'>
+            <div className='flex flex-col hidden md:block md:my-0 mt-12 gap-4'>
               <h1 className='font-circular text-xl'>Company</h1>
               <div className='flex flex-col gap-5 items-start justify-center'>
                 <h2 className='font-inter font-medium text-md text-gray-600'>About</h2>
@@ -52,7 +52,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className='flex flex-col hidden md:flex md:my-0 mt-12 gap-4'>
+            <div className='flex flex-col hidden md:block md:my-0 mt-12 gap-4'>
               <h1 className='font-circular text-xl'>Contact</h1>
               <div className='flex flex-col gap-5 items-start justify-center'>
                 <h2 className='font-inter font-medium text-md text-gray-600'>Why Travlog?</h2>
