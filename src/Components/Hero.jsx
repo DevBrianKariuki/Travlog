@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../styles'
-import { hero, workicon, playicon } from '../assets'
+import { hero, workicon, playicon, heroExtra } from '../assets'
 import { motion } from 'framer-motion'
 
 const Hero = () => {
@@ -15,8 +15,10 @@ const Hero = () => {
         <img src={hero} className='w-[100%] h-[100%] relative' />
       </div>
 
-      <div className='flex flex-1 w-full flex-col md:items-start items-center'>
-
+      <div className='flex relative flex-1 w-full flex-col md:items-start items-center'>
+        <div id='heroExtra' className='absolute bottom-0 hidden md:block left-0'>
+          <img src={heroExtra} className=' w-[50%]' />
+        </div>
         <div className='bg-white gap-4 text-sm font-circular font-bold text-pink rounded-full p-4  sm:w-[30%] justify-center md:w-[40%] flex w-[60%] shadow-md'>
           Explore the world!
           <img src={workicon} alt="workicon" />

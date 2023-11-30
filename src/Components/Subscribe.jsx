@@ -1,11 +1,15 @@
 import React from 'react'
 import { IoMail } from "react-icons/io5";
+import { subGrid } from '../assets'
 
 const Subscribe = () => {
   return (
     <div className={` relative bg-center justify-center bg-cover w-full mt-20 flex flex-col px-4 md:px-16 items-center`}>
 
-        <div className='bg-[#FFFBF0] rounded-2xl items-center justify-center px-3 py-6 md:py-20 w-full'>
+        <div className='relative bg-[#FFFBF0] rounded-2xl items-center justify-center px-3 py-6 md:py-20 w-full'>
+          <div id='subGrid' className=' hidden md:block absolute top-0 left-0'>
+            <img src={subGrid} />
+          </div>
           <div className='flex items-center justify-center my-8 md:my-0 flex-col p-2'>
             <p className='font-inter text-pink text-lg font-bold uppercase'>Subscribe to our newsletter</p>
             <h1 className='font-circular text-center md:max-w-[60%] py-4 text-4xl'>Prepare yourself & let’s explore the beauty of the world</h1>

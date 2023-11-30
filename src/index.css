@@ -9,3 +9,18 @@
     font-family: 'Circular Std';
     src: url('./constants/fonts/CircularStd-Bold.otf');
 }
+
+#subGrid{
+    top: -20px;
+    left: -20px;
+}
+
+#heroExtra{
+    bottom: -120px;
+    left: -30px;
+}
+
+#waveBg{
+    top: -200px;
+    right: 0;
+}

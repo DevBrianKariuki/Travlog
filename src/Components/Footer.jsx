@@ -1,5 +1,5 @@
 import React from 'react'
-import { logo } from '../assets'
+import { logo, waveBg } from '../assets'
 import { FaFacebook } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
 import { FaXTwitter } from "react-icons/fa6";
@@ -8,8 +8,12 @@ import { footerLinks } from '../constants/constants';
 
 const Footer = () => {
   return (
-    <div className={` w-full mt-20 px-4 md:px-16 items-center`}>
-        <div className='flex flex-col md:justify-between md:flex-row '>
+    <div className={` w-full relative mt-20 px-4 md:px-16 items-center`}>
+        <div id='waveBg' className='absolute hidden md:block right-0 bottom-0 top-0'>
+            <img src={waveBg} className='' />
+          </div>
+        <div className='flex flex-col relative md:justify-between md:flex-row '>
+          
           <div className='flex items-start flex-col'>
             <img src={logo} className='' />
             <p className='font-inter max-w-[450px] py-8 leading-[32px] text-md font-medium text-gray-500'>Contrary to popular belief, Lorem Ipsum is not simply random text. 

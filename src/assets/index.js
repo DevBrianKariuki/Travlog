@@ -23,6 +23,9 @@ import avatar from './avatar.png'
 import stars from './stars.svg'
 import workicon from './workicon.svg'
 import playicon from './playicon.svg'
+import subGrid from './subGrid.svg'
+import waveBg from './waveBg.svg'
+import heroExtra from './heroExtra.svg'
 
 
 export {
@@ -48,6 +51,9 @@ export {
     thirdIcon,
     Background,
     stars,
+    subGrid,
+    waveBg,
+    heroExtra,
     avatar,
     workicon,
     playicon,
